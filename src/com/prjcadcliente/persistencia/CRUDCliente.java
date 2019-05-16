@@ -75,7 +75,7 @@ public class CRUDCliente {
 	public String atualizar(Cliente cliente) {
 		return null;
 			
-			String msg ="";
+		String msg ="";
 		
 		//Criação dos objetos para a conexao com o banco de dados
 		try {
@@ -117,7 +117,8 @@ public class CRUDCliente {
 	}
 	
 	public String deletar(Cliente cliente) {
-String msg ="";
+			
+		String msg ="";
 		
 		//Criação dos objetos para a conexao com o banco de dados
 		try {
